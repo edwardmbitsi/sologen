@@ -1,0 +1,1843 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <link rel="pingback" href="https://wpxozosoft.xyz/wptheme/digitalsoft/xmlrpc.php" />
+    <title>Sologen</title>
+    <meta name='robots' content='max-image-preview:large' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.15.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofGJjLlU6I/3iS4QnD2f9M5Ed1zCUrm2o" crossorigin="anonymous">
+    <link rel="alternate" type="application/rss+xml" title="Digitalsoft &raquo; Feed" href="https://wpxozosoft.xyz/wptheme/digitalsoft/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Digitalsoft &raquo; Comments Feed" href="https://wpxozosoft.xyz/wptheme/digitalsoft/comments/feed/" />
+    <script>
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/wpxozosoft.xyz\/wptheme\/digitalsoft\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1"
+            }
+        };
+        /*! This file is auto-generated */
+        ! function(i, n) {
+            var o, s, e;
+
+            function c(e) {
+                try {
+                    var t = {
+                        supportTests: e,
+                        timestamp: (new Date).valueOf()
+                    };
+                    sessionStorage.setItem(o, JSON.stringify(t))
+                } catch (e) {}
+            }
+
+            function p(e, t, n) {
+                e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+                var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
+                    r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+                return t.every(function(e, t) {
+                    return e === r[t]
+                })
+            }
+
+            function u(e, t, n) {
+                switch (t) {
+                    case "flag":
+                        return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
+                    case "emoji":
+                        return !n(e, "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff", "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")
+                }
+                return !1
+            }
+
+            function f(e, t, n) {
+                var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : i.createElement("canvas"),
+                    a = r.getContext("2d", {
+                        willReadFrequently: !0
+                    }),
+                    o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
+                return e.forEach(function(e) {
+                    o[e] = t(a, e, n)
+                }), o
+            }
+
+            function t(e) {
+                var t = i.createElement("script");
+                t.src = e, t.defer = !0, i.head.appendChild(t)
+            }
+            "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
+                everything: !0,
+                everythingExceptFlag: !0
+            }, e = new Promise(function(e) {
+                i.addEventListener("DOMContentLoaded", e, {
+                    once: !0
+                })
+            }), new Promise(function(t) {
+                var n = function() {
+                    try {
+                        var e = JSON.parse(sessionStorage.getItem(o));
+                        if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
+                    } catch (e) {}
+                    return null
+                }();
+                if (!n) {
+                    if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
+                        var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));",
+                            r = new Blob([e], {
+                                type: "text/javascript"
+                            }),
+                            a = new Worker(URL.createObjectURL(r), {
+                                name: "wpTestEmojiSupports"
+                            });
+                        return void(a.onmessage = function(e) {
+                            c(n = e.data), a.terminate(), t(n)
+                        })
+                    } catch (e) {}
+                    c(n = f(s, u, p))
+                }
+                t(n)
+            }).then(function(e) {
+                for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
+                n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function() {
+                    n.DOMReady = !0
+                }
+            }).then(function() {
+                return e
+            }).then(function() {
+                var e;
+                n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
+            }))
+        }((window, document), window._wpemojiSettings);
+    </script>
+    <style id='wp-emoji-styles-inline-css'>
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css' href='https://wpxozosoft.xyz/wptheme/digitalsoft/wp-includes/css/dist/block-library/style.min.css?ver=6.4.1' media='all' />
+    <style id='classic-theme-styles-inline-css'>
+        /*! This file is auto-generated */
+
+        .wp-block-button__link {
+            color: #fff;
+            background-color: #32373c;
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em
+        }
+
+        .wp-block-file__button {
+            background: #32373c;
+            color: #fff;
+            text-decoration: none
+        }
+    </style>
+    <style id='global-styles-inline-css'>
+        body {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        :where(.is-layout-grid) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flow>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-flow>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-flow>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-constrained>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-constrained>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+            max-width: var(--wp--style--global--content-size);
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignwide {
+            max-width: var(--wp--style--global--wide-size);
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        body .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        body .is-layout-flex>* {
+            margin: 0;
+        }
+
+        body .is-layout-grid {
+            display: grid;
+        }
+
+        body .is-layout-grid>* {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        .wp-block-navigation a:where(:not(.wp-element-button)) {
+            color: inherit;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        .wp-block-pullquote {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel='stylesheet' id='hfe-style-css' href='https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.13' media='all' />
+    <link rel='stylesheet' id='elementor-icons-css' href='https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.16.0' media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css' href='https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.7.4' media='all' />
+    <link rel='stylesheet' id='elementor-post-6-css' href='https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/elementor/css/post-6.css?ver=1665166740' media='all' />
+    <link rel='stylesheet' id='elementor-global-css' href='https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/elementor/css/global.css?ver=1665166740' media='all' />
+    <link rel='stylesheet' id='elementor-post-132-css' href='https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/elementor/css/post-132.css?ver=1668605148' media='all' />
+    <link rel='stylesheet' id='hfe-widgets-style-css' href='https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.13' media='all' />
+    <link rel='stylesheet' id='elementor-post-9-css' href='https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/elementor/css/post-9.css?ver=1665166741' media='all' />
+    <link rel='stylesheet' id='elementor-post-90-css' href='https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/elementor/css/post-90.css?ver=1665166741' media='all' />
+    <link rel='stylesheet' id='digitalsoft-style-css' href='https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/themes/digitalsoft/style.css?ver=1.0.0' media='all' />
+    <link rel='stylesheet' id='digitalsoft-icofont-css' href='https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/themes/digitalsoft/assets/css/icofont.min.css?ver=1.0.0' media='all' />
+    <link rel='stylesheet' id='elementor-icons-ekiticons-css' href='https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css?ver=2.7.0' media='all' />
+    <link rel='stylesheet' id='ekit-widget-styles-css' href='https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css?ver=2.7.0' media='all' />
+    <link rel='stylesheet' id='ekit-responsive-css' href='https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css?ver=2.7.0' media='all' />
+    <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMerriweather%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CLato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.4.1'
+        media='all' />
+    <link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />
+    <link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' media='all' />
+    <link rel='stylesheet' id='elementor-icons-fa-regular-css' href='https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3' media='all' />
+    <script src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+    <script src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+    <link rel="https://api.w.org/" href="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-json/" />
+    <link rel="alternate" type="application/json" href="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-json/wp/v2/pages/132" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wpxozosoft.xyz/wptheme/digitalsoft/xmlrpc.php?rsd" />
+    <meta name="generator" content="WordPress 6.4.1" />
+    <link rel="canonical" href="https://wpxozosoft.xyz/wptheme/digitalsoft/" />
+    <link rel='shortlink' href='https://wpxozosoft.xyz/wptheme/digitalsoft/' />
+    <link rel="alternate" type="application/json+oembed" href="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwpxozosoft.xyz%2Fwptheme%2Fdigitalsoft%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwpxozosoft.xyz%2Fwptheme%2Fdigitalsoft%2F&#038;format=xml" />
+</head>
+
+<body class="home page-template page-template-elementor_header_footer page page-id-132 ehf-header ehf-footer ehf-template-digitalsoft ehf-stylesheet-digitalsoft elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-132">
+    <div id="page" class="hfeed site">
+
+
+
+    <div class="nav">
+                                <input type="checkbox" id="nav-check">
+                                <div class="nav-header">
+                                    <img src="images/26.png" alt="Logo">
+                                </div>
+                                <div class="nav-btn">
+                                    <label for="nav-check">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </label>
+                                </div>
+                                <div class="nav-links">
+                                    <a href="#Home" style="font-family: 'Rubik', sans-serif;">Home</a>
+                                    <a  href="#About" style="font-family: 'Rubik', sans-serif;">About</a>
+                                    <a href="#Service" style="font-family: 'Rubik', sans-serif;">Service</a>
+                                    <a href="#Contact" style="font-family: 'Rubik', sans-serif;">Contact</a>
+                                    <a href="#Subscribe" style="font-family: 'Rubik', sans-serif;">Subscribe</a>
+
+
+                                </div>
+                            </div>
+                            
+                                                                <style>
+                                                                    @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Rubik&display=swap');
+                                                                    @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+:root {
+    font-size: 62.5%; /* This sets 1rem to 10px (10/16 * 100%) */
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+}
+
+body.nav-open {
+    overflow: hidden;
+}
+
+body {
+  margin: 0px;
+  font-family: 'segoe ui';
+  overflow-x: hidden; /* Add this to prevent horizontal scrolling */
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    background-color:white;
+    position: relative;
+    display: flex;
+    justify-content: space-between; /* Align items to the right and left */
+    align-items: center;
+    z-index: 2; /* Ensure the navbar is above other content */
+}
+
+.nav > .nav-header {
+    display: flex;
+    align-items: center;
+}
+
+.nav > .nav-header > img {
+    margin-left: 150px;
+    width: 200px;
+    margin-right: 10px; /* Add space between the logo and title */
+}
+
+.nav > .nav-header > .nav-title {
+    font-size: 22px;
+    color: #000;
+}
+
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+    margin-right: 100px;
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    z-index: 3; /* Ensure the toggle button is above other content */
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover, .nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid black;
+  }
+
+  
+.nav > .nav-header > img {
+    margin-left:15%;
+    max-height: 30%; /* Ensure the logo fits within the navbar */
+    margin-right: 10px; /* Add space between the logo and title */
+}
+
+  .nav > .nav-links {
+    text-align: center;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+    z-index: 1; /* Ensure the menu is above other content */
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+   body.nav-open {
+    overflow: hidden; /* Prevent scrolling when the menu is open */
+  }
+
+  .nav > .nav-btn {
+    z-index: 1000; /* Ensure the toggle button is above other content */
+  }
+
+  .nav > .nav-header > img {
+    margin-left: 15%;
+    max-height: 30%;
+    margin-right: 10px;
+    position: relative;
+    z-index: 1001; /* Adjust the z-index to ensure it's above the nav links */
+}
+}
+
+@media (max-width: 600px) {
+    .nav > .nav-btn {
+        z-index: 1000;
+    }
+
+    .nav > .nav-links {
+        text-align: center;
+        position: fixed;
+        display: block;
+        width: 100%;
+        height: 100vh;
+        transition: all 0.3s ease-in;
+        overflow-y: auto;
+        top: 50px;
+        left: 0px;
+        background-color: white;
+        z-index: 999;
+    }
+
+    .body.nav-open {
+        overflow: hidden;
+    }
+
+
+
+.nav {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Adjust the last value for opacity */
+}
+}
+
+                                                                </style>
+                                                               
+
+
+
+
+        
+        <div data-elementor-type="wp-page" data-elementor-id="132" class="elementor elementor-132">
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-3febfd4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3febfd4" data-element_type="section">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-82350a4" data-id="82350a4" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-039c85b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="039c85b" data-element_type="section">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1cefb9b" data-id="1cefb9b" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-c8e07c4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c8e07c4" data-element_type="section">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7e7c3fb" data-id="7e7c3fb" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-303c616 elementor-widget elementor-widget-spacer" data-id="303c616" data-element_type="widget" data-widget_type="spacer.default">
+                                <div class="elementor-widget-container">
+                                    <style>
+                                        /*! elementor - v3.7.4 - 31-08-2022 */
+
+                                        .elementor-column .elementor-spacer-inner {
+                                            height: var(--spacer-size)
+                                        }
+
+                                        .e-container {
+                                            --container-widget-width: 100%
+                                        }
+
+                                        .e-container>.elementor-widget-spacer {
+                                            width: var(--container-widget-width, var(--spacer-size));
+                                            -ms-flex-item-align: stretch;
+                                            align-self: stretch;
+                                            -ms-flex-negative: 0;
+                                            flex-shrink: 0
+                                        }
+
+                                        .e-container>.elementor-widget-spacer>.elementor-widget-container,
+                                        .e-container>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer {
+                                            height: 100%
+                                        }
+
+                                        .e-container>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner {
+                                            height: var(--container-widget-height, var(--spacer-size))
+                                        }
+                                    </style>
+                                    <div class="elementor-spacer">
+                                        <div class="elementor-spacer-inner"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-3277ac31 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3277ac31" data-element_type="section" id="home">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1af0bc9b" data-id="1af0bc9b" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-6cd8d1e0 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-heading" data-id="6cd8d1e0" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+                                data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <style>
+                                        /*! elementor - v3.7.4 - 31-08-2022 */
+
+                                        .elementor-heading-title {
+                                            padding: 0;
+                                            margin: 0;
+                                            line-height: 1
+                                        }
+
+                                        .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                                            color: inherit;
+                                            font-size: inherit;
+                                            line-height: inherit
+                                        }
+
+                                        .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                                            font-size: 15px
+                                        }
+
+                                        .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                                            font-size: 19px
+                                        }
+
+                                        .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                                            font-size: 29px
+                                        }
+
+                                        .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                                            font-size: 39px
+                                        }
+
+                                        .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                                            font-size: 59px
+                                        }
+                                    </style>
+                                    <h2 class="elementor-heading-title elementor-size-default">Design</h2>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-6c384cf7 animated-slow elementor-invisible elementor-widget elementor-widget-elementskit-heading" data-id="6c384cf7" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
+                                data-widget_type="elementskit-heading.default">
+                                <div class="elementor-widget-container">
+                                    <div class="ekit-wid-con">
+                                        <div class="ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-   ekit_heading_mobile-">
+                                            <h1 class="ekit-heading--title elementskit-section-title " style="color: #007bff;">
+                                                Your Vision Is Our Business
+                                            </h1>
+                                            <div class='ekit-heading__description'>
+                                            <p >Empowering Your Vision, Fueling Our Business - Sologen: Where Innovation Meets Excellence.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-34efb5cb animated-slow elementor-invisible elementor-widget elementor-widget-elementskit-dual-button" data-id="34efb5cb" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:500}"
+                                data-widget_type="elementskit-dual-button.default">
+                                <div class="elementor-widget-container">
+                                    <div class="ekit-wid-con">
+                                        <div class="ekit-element-align-wrapper">
+                                            <div class="ekit_double_button" > <a class="ekit-double-btn ekit-double-btn-one" href="#About" style="background-color: #ff4500;">
+                    About us                </a>
+
+                                                <a class="ekit-double-btn ekit-double-btn-two" href="#Contact" style="color: #00ff00;">
+                    Contact us                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-35b02cb4 elementor-widget__width-inherit elementor-absolute elementor-widget elementor-widget-image" data-id="35b02cb4" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+                                data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img decoding="async" width="130" height="130" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/big-circle.png" class="attachment-large size-large" alt="" /> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7c906ba1" data-id="7c906ba1" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-6ac48219 elementor-widget__width-initial elementor-absolute animated-slow elementor-invisible elementor-widget elementor-widget-image" data-id="6ac48219" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:1500}"
+                                data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img fetchpriority="high" decoding="async" width="1062" height="420" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/bg-line.png" class="attachment-full size-full" alt="" srcset="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/bg-line.png 1062w, https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/bg-line-300x119.png 300w, https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/bg-line-1024x405.png 1024w, https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/bg-line-768x304.png 768w"
+                                        sizes="(max-width: 1062px) 100vw, 1062px" /> </div>
+                            </div>
+                            <div class="elementor-element elementor-element-77d55b3b elementor-invisible elementor-widget elementor-widget-image" data-id="77d55b3b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;_animation_delay&quot;:100}"
+                                data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img decoding="async" width="747" height="515" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/hero-bg.png" class="attachment-full size-full" alt="" srcset="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/hero-bg.png 747w, https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/hero-bg-300x207.png 300w"
+                                        sizes="(max-width: 747px) 100vw, 747px" /> </div>
+                            </div>
+                            <div class="elementor-element elementor-element-3f8b567a elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-image" data-id="3f8b567a" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+                                data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img loading="lazy" decoding="async" width="39" height="39" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/circle-2.png" class="attachment-full size-full" alt="" /> </div>
+                            </div>
+                            <div class="elementor-element elementor-element-752ca2a2 elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-image" data-id="752ca2a2" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+                                data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img loading="lazy" decoding="async" width="39" height="39" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/circle-1.png" class="attachment-full size-full" alt="" /> </div>
+                            </div>
+                            <div class="elementor-element elementor-element-6e786901 elementor-widget__width-auto elementor-absolute elementor-hidden-tablet elementor-hidden-phone animated-slow elementor-invisible elementor-widget elementor-widget-image" data-id="6e786901" data-element_type="widget"
+                                data-settings="{&quot;_animation&quot;:&quot;bounceIn&quot;,&quot;_animation_delay&quot;:800,&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img loading="lazy" decoding="async" width="97" height="106" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/bg-popup-2.png" class="attachment-full size-full" alt="" /> </div>
+                            </div>
+                            <div class="elementor-element elementor-element-42474a2b elementor-widget__width-auto elementor-absolute elementor-hidden-tablet elementor-hidden-phone animated-slow elementor-invisible elementor-widget elementor-widget-image" data-id="42474a2b" data-element_type="widget"
+                                data-settings="{&quot;_animation&quot;:&quot;bounceIn&quot;,&quot;_animation_delay&quot;:1000,&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img loading="lazy" decoding="async" width="208" height="147" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/bg-popup-1.png" class="attachment-full size-full" alt="" /> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-3473a4d2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3473a4d2" data-element_type="section" id="Service">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2e720781" data-id="2e720781" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-34ec6b27 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial animated-slow elementor-invisible elementor-widget elementor-widget-elementskit-heading"
+                                data-id="34ec6b27" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="elementskit-heading.default">
+                                <div class="elementor-widget-container">
+                                    <div class="ekit-wid-con">
+                                        <div class="ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-">
+                                            <h3 class="elementskit-section-subtitle  ">
+                                                Service
+                                            </h3>
+                                            <h2 class="ekit-heading--title elementskit-section-title " style="color: #007bff;">
+                                            At Sologen, we specialize in:                                            </h2>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-5abab83a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5abab83a" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-23662ff7 elementor-invisible" data-id="23662ff7" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-8c4c841 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="8c4c841" data-element_type="widget" data-widget_type="elementskit-icon-box.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ekit-wid-con">
+                                                        <!-- link opening -->
+                                                        <!-- end link opening -->
+
+                                                        <div class="elementskit-infobox text-left text-left icon-top-align elementor-animation">
+    <div class="elementskit-box-header elementor-animation">
+        <div class="elementskit-info-box-icon" style="background-color: #ff4500;">
+            <i class="fas fa-globe"></i> <!-- Font Awesome globe icon -->
+        </div>
+    </div>
+
+                                                            <div class="box-body">
+                                                                <h3 class="elementskit-info-box-title" style="color: #007bff;">
+                                                                Digital Marketing </h3>
+                                                                <p>Elevate your online presence with our strategic digital marketing solutions. We amplify your brand and connect you with your target audience.</p>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1474d6ed animated-slow elementor-invisible" data-id="1474d6ed" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-5ee1964f ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="5ee1964f" data-element_type="widget" data-widget_type="elementskit-icon-box.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ekit-wid-con">
+                                                        <!-- link opening -->
+                                                        <!-- end link opening -->
+
+                                                        <div class="elementskit-infobox text-left text-left icon-top-align elementor-animation-">
+    <div class="elementskit-box-header elementor-animation-">
+        <div class="elementskit-info-box-icon" style="background-color: #007bff;">
+            <i class="fas fa-paint-brush"></i>
+        </div>
+    </div>
+                                                            <div class="box-body">
+                                                                <h3 class="elementskit-info-box-title" style="color: #007bff;">
+                                                                Graphic Design </h3>
+                                                                <p>Unlock creativity with our cutting-edge graphic design services. From logos to visuals, we craft designs that leave a lasting impression.</p>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-10daf5be animated-slow elementor-invisible" data-id="10daf5be" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:400}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-5f0c23c7 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="5f0c23c7" data-element_type="widget" data-widget_type="elementskit-icon-box.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ekit-wid-con">
+                                                        <!-- link opening -->
+                                                        <!-- end link opening -->
+
+                                                        <div class="service elementskit-infobox text-left text-left icon-top-align elementor-animation-">
+        <div class="elementskit-box-header elementor-animation-">
+            <div class="elementskit-info-box-icon" style="background-color: #00ff00;">
+                <i class="fas fa-desktop"></i> <!-- Computer icon -->
+            </div>
+                                                            <div class="box-body" >
+                                                                <h3 class="elementskit-info-box-title" style="color: #007bff;">
+                                                                Software Development </h3>
+                                                                <p>Transform your ideas into reality with our bespoke software development. We bring innovation to life, creating solutions tailored to your needs.</p>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-62ae6aa5 elementor-section-content-top elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="62ae6aa5" data-element_type="section"
+                id="About">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1ca87a45 elementor-invisible" data-id="1ca87a45" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;bounceInUp&quot;}">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-2165d2f elementor-widget elementor-widget-image" data-id="2165d2f" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img loading="lazy" decoding="async" width="100%" height="586" src="https://images.pexels.com/photos/8472568/pexels-photo-8472568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="attachment-full size-full" alt="" srcset="https://images.pexels.com/photos/8472568/pexels-photo-8472568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 409w, https://images.pexels.com/photos/8472568/pexels-photo-8472568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 209w"
+                                        sizes="(max-width: 409px) 100vw, 409px" /> </div>
+                            </div>
+                            <div class="elementor-element elementor-element-7cab86c7 elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-image" data-id="7cab86c7" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+                                data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img loading="lazy" decoding="async" width="188" height="216" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/memphis.png" class="attachment-full size-full" alt="" /> </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-599abecf" data-id="599abecf" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-fe30308 elementor-widget-mobile__width-inherit animated-slow elementor-invisible elementor-widget elementor-widget-elementskit-heading" data-id="fe30308" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:200}"
+                                data-widget_type="elementskit-heading.default">
+                                <div class="elementor-widget-container">
+                                    <div class="ekit-wid-con">
+                                        <div class="ekit-heading elementskit-section-title-wraper    ekit_heading_tablet-   ekit_heading_mobile-">
+                                            <h3 class="elementskit-section-subtitle  ">
+                                                About
+                                            </h3>
+                                            <h2 class="ekit-heading--title elementskit-section-title " style="color: #007bff;">
+                                                Technology fueled by User Experience
+                                            </h2>
+                                            <div class='ekit-heading__description'>
+                                            <p>Driven by a commitment to empowering our clients, we embark on a journey to transform visions into reality. Our dedicated team of professionals combines creativity and technical prowess to deliver solutions that make an impact.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-58fc0982 animated-slow elementor-invisible elementor-widget elementor-widget-text-editor" data-id="58fc0982" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:400}"
+                                data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <style>
+                                        /*! elementor - v3.7.4 - 31-08-2022 */
+
+                                        .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                                            background-color: #818a91;
+                                            color: #fff
+                                        }
+
+                                        .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+                                            color: #818a91;
+                                            border: 3px solid;
+                                            background-color: transparent
+                                        }
+
+                                        .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+                                            margin-top: 8px
+                                        }
+
+                                        .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+                                            width: 1em;
+                                            height: 1em
+                                        }
+
+                                        .elementor-widget-text-editor .elementor-drop-cap {
+                                            float: left;
+                                            text-align: center;
+                                            line-height: 1;
+                                            font-size: 50px
+                                        }
+
+                                        .elementor-widget-text-editor .elementor-drop-cap-letter {
+                                            display: inline-block
+                                        }
+                                    </style>
+                              <p>At Sologen, we believe in the power of collaboration and continuous learning. Every project is an opportunity to push boundaries and exceed expectations. Join us on this exciting venture, and let's build something extraordinary together.</p>
+                                </div>
+                            </div>
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-3e777b9f animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="3e777b9f" data-element_type="section"
+                                data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:500}">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-59ec9910" data-id="59ec9910" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-30ed3420 elementor-widget elementor-widget-elementskit-funfact" data-id="30ed3420" data-element_type="widget" data-widget_type="elementskit-funfact.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ekit-wid-con">
+                                                        <div class="elementskit-funfact text-left     ">
+
+                                                            <div class="elementskit-funfact-inner">
+                                                                <div class="funfact-icon"> <i></i>
+
+                                                                <i class="fas fa-arrow-up"></i> <!-- Arrow pointing upwards icon -->
+                                                                </div>
+
+                                                                <div class="funfact-content">
+                                                                    <div class="number-percentage-wraper" style="color: #007bff;">
+                                                                        <span class="number-percentage" data-value="14" data-animation-duration="3500" style="color: #007bff;">0</span>
+                                                                    </div>
+
+                                                                    <h3 class="funfact-title">Successful Projects</h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-31335977" data-id="31335977" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-705adf42 elementor-widget elementor-widget-elementskit-funfact" data-id="705adf42" data-element_type="widget" data-widget_type="elementskit-funfact.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ekit-wid-con">
+                                                        <div class="elementskit-funfact text-left     ">
+
+                                                            <div class="elementskit-funfact-inner">
+                                                                <div class="funfact-icon"> <i></i>
+
+                                                                <i class="fas fa-arrow-up"></i> <!-- Arrow pointing upwards icon -->
+                                                                </div>
+
+                                                                <div class="funfact-content">
+                                                                    <div class="number-percentage-wraper">
+                                                                        <span class="number-percentage" data-value="33" data-animation-duration="3500" style="color: #007bff;">0</span>
+                                                                    </div>
+
+                                                                    <h3 class="funfact-title">Quality Customers</h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-20360ede" data-id="20360ede" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-285dd9fb elementor-widget elementor-widget-elementskit-funfact" data-id="285dd9fb" data-element_type="widget" data-widget_type="elementskit-funfact.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ekit-wid-con">
+                                                        <div class="elementskit-funfact text-left     ">
+
+                                                            <div class="elementskit-funfact-inner">
+                                                                <div class="funfact-icon"> <i></i>
+
+                                                                <i class="fas fa-arrow-up"></i> <!-- Arrow pointing upwards icon -->
+                                                                </div>
+
+                                                                <div class="funfact-content">
+                                                                    <div class="number-percentage-wraper">
+                                                                        <span class="number-percentage" data-value="33" data-animation-duration="3500" style="color: #007bff;">0</span>
+                                                                    </div>
+
+                                                                    <h3 class="funfact-title">Trusted Partners</h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-479551ea elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="479551ea" data-element_type="section"
+                id="Contact">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-30373b49 animated-slow elementor-invisible" data-id="30373b49" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-6b233a3b elementor-widget-mobile__width-inherit elementor-widget elementor-widget-elementskit-heading" data-id="6b233a3b" data-element_type="widget" data-widget_type="elementskit-heading.default">
+                                <div class="elementor-widget-container">
+                                    <div class="ekit-wid-con">
+                                        <div class="ekit-heading elementskit-section-title-wraper    ekit_heading_tablet-   ekit_heading_mobile-">
+                                            <h2 class="ekit-heading--title elementskit-section-title " style="color: #007bff;">
+                                                Professional quality delivered!
+                                            </h2>
+                                            <div class='ekit-heading__description'>
+                                            <p>Welcome to Sologen, where innovation and expertise converge to redefine the digital landscape. Established with a passion for excellence, we specialize in digital marketing, graphic design, and software development.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-58a273da elementor-widget elementor-widget-elementskit-dual-button" data-id="58a273da" data-element_type="widget" data-widget_type="elementskit-dual-button.default">
+                                <div class="elementor-widget-container">
+                                    <div class="ekit-wid-con">
+                                        <div class="ekit-element-align-wrapper">
+                                            <div class="ekit_double_button"> <a class="ekit-double-btn ekit-double-btn-one" href="#About" style="background-color: #ff4500;">
+                    Read More                </a>
+
+                                                <a class="ekit-double-btn ekit-double-btn-two" href="#Contact" style="color: #00ff00;">
+                    Contact us                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4cc7aba" data-id="4cc7aba" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-40b77ff8 elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-image" data-id="40b77ff8" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+                                data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img loading="lazy" decoding="async" width="161" height="246" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/dots-1.png" class="attachment-full size-full" alt="" /> </div>
+                            </div>
+                            <div class="elementor-element elementor-element-1d6f4fa6 elementor-invisible elementor-widget elementor-widget-image" data-id="1d6f4fa6" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomInDown&quot;}" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img loading="lazy" decoding="async" width="510" height="349" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/art-1.png" class="attachment-full size-full" alt="" srcset="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/art-1.png 510w, https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/art-1-300x205.png 300w"
+                                        sizes="(max-width: 510px) 100vw, 510px" /> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-4c942dd1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4c942dd1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                <div class="elementor-container elementor-column-gap-no">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4314ae1d" data-id="4314ae1d" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-61e30654 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="61e30654"
+                                data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-60dfe558" data-id="60dfe558" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-451753a4 elementor-widget-mobile__width-inherit elementor-widget elementor-widget-elementskit-heading" data-id="451753a4" data-element_type="widget" data-widget_type="elementskit-heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ekit-wid-con">
+                                                        <div class="ekit-heading elementskit-section-title-wraper    ekit_heading_tablet-   ekit_heading_mobile-">
+                                                            <h2 class="ekit-heading--title elementskit-section-title " style="color: #007bff;">
+                                                                Take a look at our worldwide partners
+                                                            </h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-67d0a2a2" data-id="67d0a2a2" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-3daa11ee elementor-widget-mobile__width-inherit elementor-widget elementor-widget-elementskit-heading" data-id="3daa11ee" data-element_type="widget" data-widget_type="elementskit-heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ekit-wid-con">
+                                                        <div class="ekit-heading elementskit-section-title-wraper    ekit_heading_tablet-   ekit_heading_mobile-">
+                                                            <div class='ekit-heading__description'>
+                                                            <p>We are proud to collaborate with industry-leading partners who share our commitment to innovation and excellence. Together, we build powerful synergies that drive success and foster growth.</p>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-6edfdafe elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="6edfdafe"
+                                data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-14 elementor-inner-column elementor-element elementor-element-40bf45a6" data-id="40bf45a6" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-3a0dc192 elementor-widget elementor-widget-image" data-id="3a0dc192" data-element_type="widget" data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <img loading="lazy" decoding="async" width="73" height="87" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/brand-4.png" class="attachment-full size-full" alt="" /> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-14 elementor-inner-column elementor-element elementor-element-12bf58fc" data-id="12bf58fc" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-30ea748f elementor-widget elementor-widget-image" data-id="30ea748f" data-element_type="widget" data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <img loading="lazy" decoding="async" width="109" height="78" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/brand-2.png" class="attachment-full size-full" alt="" /> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-14 elementor-inner-column elementor-element elementor-element-4f838601" data-id="4f838601" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-4b2ac99a elementor-widget elementor-widget-image" data-id="4b2ac99a" data-element_type="widget" data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <img loading="lazy" decoding="async" width="85" height="87" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/brand-3.png" class="attachment-full size-full" alt="" /> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-14 elementor-inner-column elementor-element elementor-element-2d2fa0ac" data-id="2d2fa0ac" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-2e680fa3 elementor-widget elementor-widget-image" data-id="2e680fa3" data-element_type="widget" data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <img loading="lazy" decoding="async" width="93" height="74" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/brand-7.png" class="attachment-full size-full" alt="" /> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-14 elementor-inner-column elementor-element elementor-element-703d2688" data-id="703d2688" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-44089ef9 elementor-widget elementor-widget-image" data-id="44089ef9" data-element_type="widget" data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <img loading="lazy" decoding="async" width="92" height="94" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/brand-5.png" class="attachment-full size-full" alt="" /> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-14 elementor-inner-column elementor-element elementor-element-592103c8" data-id="592103c8" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-1dd26801 elementor-widget elementor-widget-image" data-id="1dd26801" data-element_type="widget" data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <img loading="lazy" decoding="async" width="95" height="103" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/brand-1.png" class="attachment-full size-full" alt="" /> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-14 elementor-inner-column elementor-element elementor-element-24d51695" data-id="24d51695" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-22f5de8f elementor-widget elementor-widget-image" data-id="22f5de8f" data-element_type="widget" data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <img loading="lazy" decoding="async" width="87" height="95" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/brand-6.png" class="attachment-full size-full" alt="" /> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-428245b0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="428245b0" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2903b295" data-id="2903b295" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-7af8551c elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial elementor-widget elementor-widget-elementskit-heading" data-id="7af8551c" data-element_type="widget" data-widget_type="elementskit-heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ekit-wid-con">
+                                                        <div class="ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-">
+                                                            <h3 class="elementskit-section-subtitle  ">
+                                                                Review
+                                                            </h3>
+                                                            <h2 class="ekit-heading--title elementskit-section-title " style="color: #007bff;">
+                                                                Clients' Testimonials
+                                                            </h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-7783f5a8 elementor-widget elementor-widget-elementskit-testimonial" data-id="7783f5a8" data-element_type="widget" data-widget_type="elementskit-testimonial.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ekit-wid-con">
+                                                        <div class="elementskit-testimonial-slider ekit_testimonial_style_5 slick-slider arrow_inside " data-config="{&quot;rtl&quot;:false,&quot;arrows&quot;:true,&quot;dots&quot;:false,&quot;pauseOnHover&quot;:true,&quot;autoplay&quot;:true,&quot;speed&quot;:10000,&quot;slidesPerGroup&quot;:1,&quot;slidesPerView&quot;:1,&quot;loop&quot;:false,&quot;breakpoints&quot;:{&quot;320&quot;:{&quot;slidesPerView&quot;:1,&quot;slidesPerGroup&quot;:1},&quot;768&quot;:{&quot;slidesPerView&quot;:2,&quot;slidesPerGroup&quot;:1},&quot;1024&quot;:{&quot;slidesPerView&quot;:1,&quot;slidesPerGroup&quot;:1}}}">
+                                                            <div class="swiper-container">
+                                                                <div class="slick-list swiper-wrapper">
+                                                                    <div class="swiper-slide">
+                                                                        <div class="slick-slide">
+                                                                            <div class="elementskit-single-testimonial-slider elementskit-testimonial-slider-block-style elementskit-testimonial-slider-block-style-two  elementor-repeater-item-b541a9a">
+                                                                                <div class="elementskit-commentor-header">
+
+                                                                                </div>
+
+                                                                                <div class="elementskit-commentor-content">
+                                                                                <p style="color: #007bff;">"Sologen's digital marketing strategies have significantly boosted our online visibility. Their creativity and attention to detail set them apart. We're thrilled with the results!"</p>
+
+                                                                                </div>
+
+                                                                                <div class="elementskit-commentor-bio">
+                                                                                    <div class="elementkit-commentor-details client_left">
+                                                                                        <div class="elementskit-commentor-image ekit-testimonial--avatar">
+                                                                                            <img loading="lazy" decoding="async" width="58" height="58" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/testimonial-avatar.png" class="attachment-full size-full" alt="" />                                                                                            </div>
+                                                                                        <div class="elementskit-profile-info">
+                                                                                            <strong class="elementskit-author-name" style="color: #ff4500;">Kimberly Garcia</strong>
+                                                                                            <span class="elementskit-author-des" style="color: #00ff00;">Chief Technology Officer, Google</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="elementskit-icon-content elementskit-watermark-icon ">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="swiper-slide">
+                                                                        <div class="slick-slide">
+                                                                            <div class="elementskit-single-testimonial-slider elementskit-testimonial-slider-block-style elementskit-testimonial-slider-block-style-two  elementor-repeater-item-3fa7171">
+                                                                                <div class="elementskit-commentor-header">
+
+                                                                                </div>
+
+                                                                                <div class="elementskit-commentor-content">
+                                                                                <p style="color: #007bff;">"I've worked with several development teams, and Sologen stands out for their commitment to quality. They delivered our software solution on time and within budget, and the results speak for themselves. I look forward to future collaborations with this exceptional team."</p>
+
+                                                                                </div>
+
+                                                                                <div class="elementskit-commentor-bio">
+                                                                                    <div class="elementkit-commentor-details client_left">
+                                                                                        <div class="elementskit-commentor-image ekit-testimonial--avatar">
+                                                                                            <img loading="lazy" decoding="async" width="58" height="58" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/testimonial-avatar.png" class="attachment-full size-full" alt="" />                                                                                            </div>
+                                                                                        <div class="elementskit-profile-info">
+                                                                                            <strong class="elementskit-author-name" style="color: #ff4500;">Kimberly Garcia</strong>
+                                                                                            <span class="elementskit-author-des" style="color: #00ff00;">Chief Technology Officer, Google</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="elementskit-icon-content elementskit-watermark-icon ">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="swiper-slide">
+                                                                        <div class="slick-slide">
+                                                                            <div class="elementskit-single-testimonial-slider elementskit-testimonial-slider-block-style elementskit-testimonial-slider-block-style-two  elementor-repeater-item-3fa7171">
+                                                                                <div class="elementskit-commentor-header">
+
+                                                                                </div>
+
+                                                                                <div class="elementskit-commentor-content">
+                                                                                <p style="color: #007bff;">"The graphic design work delivered by Sologen surpassed our expectations. They captured our brand essence perfectly, and the designs have resonated well with our audience."</p>
+
+                                                                                </div>
+
+                                                                                <div class="elementskit-commentor-bio">
+                                                                                    <div class="elementkit-commentor-details client_left">
+                                                                                        <div class="elementskit-commentor-image ekit-testimonial--avatar">
+                                                                                            <img loading="lazy" decoding="async" width="58" height="58" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/testimonial-avatar.png" class="attachment-full size-full" alt="" />                                                                                            </div>
+                                                                                        <div class="elementskit-profile-info">
+                                                                                            <strong class="elementskit-author-name" style="color: #ff4500;">Kimberly Garcia</strong>
+                                                                                            <span class="elementskit-author-des" style="color: #00ff00;">Chief Technology Officer, Google</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="elementskit-icon-content elementskit-watermark-icon ">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="slick-dots swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></ul>
+
+<button type="button" class="slick-prev slick-arrow"><i class="fas fa-arrow-left" style="color: #007bff;"></i></button>
+
+<button type="button" class="slick-next slick-arrow"><i class="fas fa-arrow-right" style="color: #007bff;"></i></button>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-41e60571 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="41e60571" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                <div class="elementor-background-overlay"></div>
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-532c47c8" data-id="532c47c8" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-32aabe8d elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial elementor-widget elementor-widget-elementskit-heading" data-id="32aabe8d" data-element_type="widget" data-widget_type="elementskit-heading.default">
+                                <div class="elementor-widget-container">
+                                    <div class="ekit-wid-con">
+                                        <div class="ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-   ekit_heading_mobile-">
+                                            <h2 class="ekit-heading--title elementskit-section-title " style="font-size: 20px;">
+                                        Embark on your journey to success with Sologen. Whether it's digital marketing, graphic design, or software development, we're here to bring your projects to new heights. Let's collaborate and turn your ideas into extraordinary outcomes.
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-266883a3" data-id="266883a3" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-2003787b elementor-widget elementor-widget-elementskit-button" data-id="2003787b" data-element_type="widget" data-widget_type="elementskit-button.default">
+                                <div class="elementor-widget-container">
+                                    <div class="ekit-wid-con">
+                                        <div class="ekit-btn-wraper">
+                                            <a href="#" class="elementskit-btn  whitespace--normal">
+					
+					
+					Send Email				</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-35ec911c elementor-section-content-top elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="35ec911c" data-element_type="section"
+                id="Subscribe">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5be21faf" data-id="5be21faf" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-253f7e8c elementor-widget elementor-widget-image" data-id="253f7e8c" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img loading="lazy" decoding="async" width="603" height="461" src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/art-2.png" class="attachment-large size-large" alt="" srcset="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/art-2.png 603w, https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/uploads/2022/09/art-2-300x229.png 300w"
+                                        sizes="(max-width: 603px) 100vw, 603px" /> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3d492d9f" data-id="3d492d9f" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-f481b97 elementor-widget-mobile__width-inherit elementor-widget elementor-widget-elementskit-heading" data-id="f481b97" data-element_type="widget" data-widget_type="elementskit-heading.default">
+                                <div class="elementor-widget-container">
+                                    <div class="ekit-wid-con">
+                                        <div class="ekit-heading elementskit-section-title-wraper    ekit_heading_tablet-   ekit_heading_mobile-">
+                                            <h2 class="ekit-heading--title elementskit-section-title " style="color: #007bff;">
+                                                Subscribe email to get news &amp; updates
+                                            </h2>
+                                            <div class='ekit-heading__description'>
+                                            <p>Subscribe to our newsletter for the latest insights, product updates, and industry trends. Be the first to know about innovations that can elevate your business.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-590c4a46 elementor-widget elementor-widget-elementskit-mail-chimp" data-id="590c4a46" data-element_type="widget" data-widget_type="elementskit-mail-chimp.default">
+                                <div class="elementor-widget-container">
+                                    <div class="ekit-wid-con">
+                                        <div class="ekit-mail-chimp">
+                                            <form method="post" class="ekit-mailChimpForm" data-listed="" data-success-message="Successfully listed this email" data-success-opt-in-message="">
+                                                <div class="ekit-mail-message"></div>
+                                                <input type="hidden" name="double_opt_in" value="no">
+
+                                                <div class="elementskit_form_wraper elementskit_inline_form">
+                                                    <div class="ekit-mail-chimp-email elementskit_input_wraper elementskit_input_container">
+                                                        <div class="elementskit_form_group">
+                                                            <div class="elementskit_input_element_container ">
+                                                                <input type="email" name="email" class="ekit_mail_email ekit_form_control " placeholder="Enter email address.." required />
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ekit_submit_input_holder elementskit_input_wraper">
+                                                        <button type="submit" class="ekit-mail-submit" name="ekit_mail_chimp" style="background-color: #007bff;"> 
+
+                                                        <i class="fas fa-arrow-right"></i>
+							</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo" style="background-color: #ff4500;">
+            <div class='footer-width-fixer' style="background-color: #ff4500;">
+                <div data-elementor-type="wp-post" data-elementor-id="90" class="elementor elementor-90" style="background-color: #ff4500;">
+                    <section class="elementor-section elementor-top-section elementor-element elementor-element-c8ab593 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c8ab593" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style="background-color: #ff4500;">
+                        <div class="elementor-container elementor-column-gap-default" style="background-color: #ff4500;">
+                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1eae1f8b" data-id="1eae1f8b" data-element_type="column">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-6d614639 elementor-widget elementor-widget-elementskit-heading" data-id="6d614639" data-element_type="widget" data-widget_type="elementskit-heading.default">
+                                        <div class="elementor-widget-container" style="background-color: #ff4500;">
+                                            <div class="ekit-wid-con" style="background-color: #ff4500;">
+                                                <div class="ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-   ekit_heading_mobile-text_center">
+                                                    <p class="ekit-heading--title elementskit-section-title " style="font-family: 'Rubik', sans-serif;">
+                                                        ©2023. Solotech . All Rights Reserved.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-10c9a7e7" data-id="10c9a7e7" data-element_type="column">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-2c57d568 elementor-align-right elementor-mobile-align-center elementor-widget elementor-widget-elementskit-page-list" data-id="2c57d568" data-element_type="widget" data-widget_type="elementskit-page-list.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="ekit-wid-con">
+                                                <div class="elementor-icon-list-items  elementor-inline-items">
+                                                    <div class="elementor-icon-list-item   ">
+                                                        <a target=_self rel="" href="#" class="elementor-repeater-item-29e6080 ekit_badge_left">
+                                                            <div class="ekit_page_list_content">
+                                                                <span class="elementor-icon-list-text">
+								<span class="ekit_page_list_title_title">Home</span>
+                                                                </span>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="elementor-icon-list-item   ">
+                                                        <a target=_self rel="" href="#" class="elementor-repeater-item-4447f1d ekit_badge_left">
+                                                            <div class="ekit_page_list_content">
+                                                                <span class="elementor-icon-list-text">
+								<span class="ekit_page_list_title_title">About</span>
+                                                                </span>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="elementor-icon-list-item   ">
+                                                        <a target=_self rel="" href="#" class="elementor-repeater-item-9623313 ekit_badge_left">
+                                                            <div class="ekit_page_list_content">
+                                                                <span class="elementor-icon-list-text">
+								<span class="ekit_page_list_title_title">Contact</span>
+                                                                </span>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="elementor-icon-list-item   ">
+                                                        <a target=_self rel="" href="#" class="elementor-repeater-item-82ccaa7 ekit_badge_left">
+                                                            <div class="ekit_page_list_content">
+                                                                <span class="elementor-icon-list-text">
+								<span class="ekit_page_list_title_title">Service</span>
+                                                                </span>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- #page -->
+    <link rel='stylesheet' id='e-animations-css' href='https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.7.4' media='all' />
+    <script src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/themes/digitalsoft/js/navigation.js?ver=1.0.0" id="digitalsoft-navigation-js"></script>
+    <script src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/themes/digitalsoft/assets/js/main.js?ver=1.0.0" id="digitalsoft-main-js-js"></script>
+    <script src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js?ver=2.7.0" id="elementskit-framework-js-frontend-js"></script>
+    <script id="elementskit-framework-js-frontend-js-after">
+        var elementskit = {
+            resturl: 'https://wpxozosoft.xyz/wptheme/digitalsoft/wp-json/elementskit/v1/',
+        }
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+    var navCheck = document.getElementById("nav-check");
+    var body = document.body;
+
+    // Close the navbar links when a link is clicked
+    var navLinks = document.querySelectorAll(".nav-links a");
+    navLinks.forEach(function (link) {
+        link.addEventListener("click", function () {
+            body.classList.remove("nav-open");
+            navCheck.checked = false;
+        });
+    });
+});
+
+     </script>   
+    <script src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js?ver=2.7.0" id="ekit-widget-scripts-js"></script>
+    <script src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.13" id="hfe-frontend-js-js"></script>
+    <script src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+    <script src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.7.4" id="elementor-webpack-runtime-js"></script>
+    <script src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.7.4" id="elementor-frontend-modules-js"></script>
+    <script src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+    <script id="elementor-frontend-js-before">
+        var elementorFrontendConfig = {
+            "environmentMode": {
+                "edit": false,
+                "wpPreview": false,
+                "isScriptDebug": false
+            },
+            "i18n": {
+                "shareOnFacebook": "Share on Facebook",
+                "shareOnTwitter": "Share on Twitter",
+                "pinIt": "Pin it",
+                "download": "Download",
+                "downloadImage": "Download image",
+                "fullscreen": "Fullscreen",
+                "zoom": "Zoom",
+                "share": "Share",
+                "playVideo": "Play Video",
+                "previous": "Previous",
+                "next": "Next",
+                "close": "Close"
+            },
+            "is_rtl": false,
+            "breakpoints": {
+                "xs": 0,
+                "sm": 480,
+                "md": 768,
+                "lg": 1025,
+                "xl": 1440,
+                "xxl": 1600
+            },
+            "responsive": {
+                "breakpoints": {
+                    "mobile": {
+                        "label": "Mobile",
+                        "value": 767,
+                        "default_value": 767,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "mobile_extra": {
+                        "label": "Mobile Extra",
+                        "value": 880,
+                        "default_value": 880,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "tablet": {
+                        "label": "Tablet",
+                        "value": 1024,
+                        "default_value": 1024,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "tablet_extra": {
+                        "label": "Tablet Extra",
+                        "value": 1200,
+                        "default_value": 1200,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "laptop": {
+                        "label": "Laptop",
+                        "value": 1366,
+                        "default_value": 1366,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "widescreen": {
+                        "label": "Widescreen",
+                        "value": 2400,
+                        "default_value": 2400,
+                        "direction": "min",
+                        "is_enabled": false
+                    }
+                }
+            },
+            "version": "3.7.4",
+            "is_static": false,
+            "experimentalFeatures": {
+                "e_dom_optimization": true,
+                "e_optimized_assets_loading": true,
+                "e_optimized_css_loading": true,
+                "a11y_improvements": true,
+                "additional_custom_breakpoints": true,
+                "e_import_export": true,
+                "e_hidden_wordpress_widgets": true,
+                "landing-pages": true,
+                "elements-color-picker": true,
+                "favorite-widgets": true,
+                "admin-top-bar": true
+            },
+            "urls": {
+                "assets": "https:\/\/wpxozosoft.xyz\/wptheme\/digitalsoft\/wp-content\/plugins\/elementor\/assets\/"
+            },
+            "settings": {
+                "page": [],
+                "editorPreferences": []
+            },
+            "kit": {
+                "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+                "global_image_lightbox": "yes",
+                "lightbox_enable_counter": "yes",
+                "lightbox_enable_fullscreen": "yes",
+                "lightbox_enable_zoom": "yes",
+                "lightbox_enable_share": "yes",
+                "lightbox_title_src": "title",
+                "lightbox_description_src": "description"
+            },
+            "post": {
+                "id": 132,
+                "title": "Digitalsoft%20%E2%80%93%20WordPress%20theme",
+                "excerpt": "",
+                "featuredImage": false
+            }
+        };
+    </script>
+    <script src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.4" id="elementor-frontend-js"></script>
+    <script src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.js?ver=2.7.0" id="animate-circle-js"></script>
+    <script id="elementskit-elementor-js-extra">
+        var ekit_config = {
+            "ajaxurl": "https:\/\/wpxozosoft.xyz\/wptheme\/digitalsoft\/wp-admin\/admin-ajax.php",
+            "nonce": "1e6aa586ee"
+        };
+    </script>
+    <script>
+    function toggleFunction() {
+        var icon = document.getElementById("toggle-icon");
+        // Add your toggle logic here, e.g., changing the icon or toggling a menu
+    }
+</script>
+    <script src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js?ver=2.7.0" id="elementskit-elementor-js"></script>
+    <script src="https://wpxozosoft.xyz/wptheme/digitalsoft/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=2.7.0" id="swiper-js"></script>
+</body>
+
+</html>
